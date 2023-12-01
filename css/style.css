@@ -1,0 +1,101 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffffffa1;    
+}
+
+body{
+    margin: 0;
+}
+
+.products{
+    background-color: bisque;
+}
+
+header{   
+    background-image: url(../img/room.jpeg);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-div{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(241, 226, 218, 0.578);    
+    position:absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.header-div:hover{
+    opacity: 80%;
+}
+
+.header-div p{
+    color: rgb(0, 0, 0);
+}
+
+/*nav bar***********************************************************/
+
+.navbar-nav{
+ color: black;
+}
+
+
+
+/*3d Model************************/
+
+.Hotspot {
+    background: #ffffff91;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 128px;
+    overflow-wrap: break-word;
+    padding: 0.2em 0.5em;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#hotspot-camera-view-demo{
+    padding: 60px;
+    background-color: antiquewhite;
+    margin: 60px auto;
+    height: 60rem;
+    width: 60rem;
+  
+}
+
+
+.card{
+   
+    margin: 100px auto;
+    height: 40rem;
+    
+}
+
+
+
+.pro{
+    margin-top: 20px;
+    
+}
+
+.btn{
+    color: #ffffff;
+    margin: auto;
+}
+
+
