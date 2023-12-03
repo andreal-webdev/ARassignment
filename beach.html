@@ -37,27 +37,27 @@
 
         <h2 class="text-center">Beach Chair</h2>
     
+        <div class="container-fluid">
             
-        <model-viewer  id="hotspot-camera-view-demo"  src="chair surf.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.png" shadow-intensity="1.21" exposure="0.59" shadow-softness="0.46" tone-mapping="commerce" camera-controls touch-action="none"  field-of-view="45deg" min-field-of-view="25deg" max-field-of-view="45deg" interpolation-decay="200" min-camera-orbit="auto auto 5%">
-            <button class="Hotspot" slot="hotspot-1" data-position="0.23990117048691373m 0.47343025008857165m -0.03890211002488769m" data-normal="-0.3705871856710911m 0.6865766698051643m 0.6255218735548987m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation"> Oxford cloth
+            <model-viewer  id="hotspot-camera-view-demo"  src="chair surf.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.png" shadow-intensity="1.21" exposure="0.59" shadow-softness="0.46" tone-mapping="commerce" camera-controls touch-action="none"  field-of-view="45deg" min-field-of-view="25deg" max-field-of-view="45deg" interpolation-decay="200" min-camera-orbit="auto auto 5%">
+                <button class="Hotspot" slot="hotspot-1" data-position="0.23990117048691373m 0.47343025008857165m -0.03890211002488769m" data-normal="-0.3705871856710911m 0.6865766698051643m 0.6255218735548987m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation"> Oxford cloth
+                    </div>
+                </button><button class="Hotspot" slot="hotspot-2" data-position="-0.21544171551614177m 0.44722820143505715m -0.2183489042591762m" data-normal="-0.3263382929961533m 0.7681742616564825m 0.5508281240576547m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation"> Light Oak Finish</div>
+                </button><button class="Hotspot" slot="hotspot-3" data-position="0.3838187972417405m 0.0813246674152483m -0.07849093303363444m" data-normal="0.15917296482137222m 0.9499892925626564m -0.2686713815914864m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Adjustable Recliner</div>
+                </button>
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
                 </div>
-            </button><button class="Hotspot" slot="hotspot-2" data-position="-0.21544171551614177m 0.44722820143505715m -0.2183489042591762m" data-normal="-0.3263382929961533m 0.7681742616564825m 0.5508281240576547m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation"> Light Oak Finish</div>
-            </button><button class="Hotspot" slot="hotspot-3" data-position="0.3838187972417405m 0.0813246674152483m -0.07849093303363444m" data-normal="0.15917296482137222m 0.9499892925626564m -0.2686713815914864m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">Adjustable Recliner</div>
-            </button>
-            <div class="progress-bar hide" slot="progress-bar">
-                <div class="update-bar"></div>
-            </div>
-            <button slot="ar-button" id="ar-button">
-                View in your space
-            </button>
-            <div id="ar-prompt">
-                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-            </div>
-         
-        </model-viewer>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+             
+            </model-viewer>
+        </div>
+   
 
         <script type="module">
             const modelViewer2 = document.querySelector("#hotspot-camera-view-demo");
